@@ -1,0 +1,7 @@
+<launch>
+
+    <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" />
+    
+    <node name="control_robot" pkg="turtlebot_control" type="control_turtlesim_robot.py" />
+
+</launch>
